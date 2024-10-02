@@ -1,0 +1,27 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+
+.boxes {
+  border: 1px solid black;
+  width: 30px;
+}
+
+.clickedBox {
+  background-color: aquamarine;
+}
+
+.parentBox {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100px;
+}
+
+button {
+  background-color: aquamarine;
+  width: 60px;
+  height: 20px;
+}
